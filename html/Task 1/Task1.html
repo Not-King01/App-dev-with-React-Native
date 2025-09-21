@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        .one{   
+            padding: 20px;
+            padding-bottom: 50px;
+        }
+        #submit{
+            padding: 5px;  
+            background-color: rgb(36, 133, 251);          
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color:rgb(220, 215, 215); width:600px; margin:auto; padding: 20px">
+        <h2 style="color: white; text-align: center">JOB APPLICATION</h2>
+        <form>
+            <label for="role" class="one">Role</label>
+            <input type="text" placeholder="Frontend Developer" name="role" id="role" class="2"><br>
+
+            <label for="fullname" class="one">Fullname</label>
+            <input type="text" name="firstname" id="fullname" class="two" required>
+            <input type="text" name="lastname" id="fullname" class="two" required><br>
+
+            <label for="education" class="one">Education</label>
+            <select name="education" id="education" class="two" required>
+                <option value="B.tech">B.Tech</option>
+                <option value="B.Sc">B.Sc</option> 
+            </select><br>
+
+            <label for="skills" class="one">Skills</label>
+            <input type="text" name="skills" id="skills" class="two" required><br>
+
+            <label for="gender" class="one">Gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label><br>
+
+            <label for="email" class="one">Email</label>
+            <input type="email" name="email" id="email" class="two" required><br>
+
+            <label for="contact" class="one">Contact number</label>
+            <input type="text" name="contact" id="contact" class="two" required><br>
+
+            <label for="address" class="one">Address</label>
+            <textarea name="address" id="address" class="two" required>Address</textarea><br>
+
+            <label for="resume" class="one">Resume</label>
+            <input type="file" name="resume" id="resume" class="two" required><br>
+
+            <input type="checkbox" name="agree" id="agree" class="one" required>
+            <label for="agree">I agree</label><br>
+
+            <center>
+                <input type="submit"  name="submit" id="submit">
+            </center>
+
+        </form>
+    </div>
+</body>
+</html>
