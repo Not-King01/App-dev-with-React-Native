@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-card {
+    background: white;
+    width: 350px;
+    height: 430px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px 15px;
+  }
+  
+  .profile-image img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    border: 4px solid white;
+    margin-top: -60px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .designation {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 15px 0;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .count {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .follow-btn,
+  .message-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .follow-btn {
+    background: #ff5b7f;
+    color: white;
+  }
+  
+  .message-btn {
+    background: #f0f0f0;
+    color: #555;
+  }
