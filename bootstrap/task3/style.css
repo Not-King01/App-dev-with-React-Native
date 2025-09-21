@@ -1,0 +1,24 @@
+#calculator{
+    border-radius: 20px;
+    height: 480px;
+    width: 300px;
+    display: block;
+    margin-top: 50px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#no1{
+    padding-top: 90px;
+}
+
+#no2{
+    font-size: 1.8em;
+}
+
+#no1, #no2{
+    margin-left: 200px;
+}

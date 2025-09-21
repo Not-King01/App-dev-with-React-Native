@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--- fontawsome script file--->  
+    
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css">
+</head>
+<body class="bg-primary">
+    <div class="container bg-white mt-3 rounded-4">
+        <div class="row">
+            <div class="col-md-3 ps-5 border-end text-secondary">
+                <ul class="list-unstyled" style="display: flex; margin-top:25px">
+                    <img src="cl.jpg" class="img rounded-circle me-2">
+                    <li><h6>Codinglab</h6></li>
+                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="list-unstyled mt-5 text-primary">                                     
+                        <li><img src="dot.png" class="img" style="margin-left: -30px;"><i class="fa-regular fa-house p-2"></i>Dashboard</li>
+                    </ul>
+                    <ul class="list-unstyled">                   
+                        <li><i class="fa-thin fa-folder-grid p-2"></i>Content</li>
+                    </ul>
+                    <ul class="list-unstyled">                   
+                        <li><i class="fa-duotone fa-light fa-chart-simple p-2"></i>Analytics</li>
+                    </ul>
+                    <ul class="list-unstyled">                   
+                        <li><i class="fa-sharp fa-regular fa-thumbs-up p-2"></i>Likes</li>
+                    </ul>
+                    <ul class="list-unstyled">                   
+                        <li><i class="fa-light fa-comment p-2"></i>Comments</li>
+                    </ul>
+                    <ul class="list-unstyled">                   
+                        <li><i class="fa-sharp fa-solid fa-share p-2"></i>Share</li>
+                    </ul>
+                    <hr class="p-3 mt-5">
+                    <ul class="list-unstyled">                   
+                        <li><i class="fa-solid fa-right-from-bracket p-2"></i>Logout</li>
+                    </ul>
+                    <ul class="list-unstyled mb-4">                   
+                        <li><i class="fa-light fa-moon p-2"></i>Dark Mode<i class="fa-regular fa-toggle-on ms-2"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row p-3 pt-4">
+                    <div class="col-1 mt-1">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fa-lg ms-3"></i>
+                    </div>     
+                    <div class="col-9 pe-5">
+                        <input type="text" class="form-control" placeholder="Search Here...">
+                    </div>
+                    <div class="col-1 mt-1">
+                        <img src="avatar.png" class="img">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-1 ps-5">
+                        <i class="text-primary fa-solid fa-gauge-simple-high fa-lg"></i>
+                    </div>
+                    <div class="col-4">
+                        <h6>Dashboard</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 bg-info ms-5 mt-3 rounded-4">
+                        <div class=" d-flex justify-content-center"><i class="fa-sharp fa-regular fa-thumbs-up p-3"></i></div>
+                        <div class=" d-flex justify-content-center "><small><b>Total Likes</b></small></div>
+                        <div class=" d-flex justify-content-center"><h1>50,120</h1></div>
+                    </div>
+                    <div class="col-md-3 bg-warning ms-5 mt-3 rounded-4">
+                        <div class=" d-flex justify-content-center"><i class="fa-light fa-comment p-3"></i></div>
+                        <div class=" d-flex justify-content-center "><small><b>Comments</b></small></div>
+                        <div class=" d-flex justify-content-center"><h1>25,120</h1></div>
+                    </div>
+                    <div class="col-md-3 bg-success ms-5 mt-3 rounded-4">
+                        <div class=" d-flex justify-content-center"><i class="fa-sharp fa-solid fa-share p-3"></i></div>
+                        <div class=" d-flex justify-content-center "><small><b>Total Shares</b></small></div>
+                        <div class=" d-flex justify-content-center"><h1>10,320</h1></div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-1 ps-5">
+                        <i class="text-primary fa-regular fa-calendar fa-lg"></i>
+                    </div>
+                    <div class="col-4">
+                        <h6>Recent Activity</h6>
+                    </div>
+                </div>
+                <div class="row ms-4 mt-3">
+                    <div class="col-md-10 text-secondary">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Joined</th>
+                                    <th>Type</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Prem Shahi</td>                         
+                                    <td>premshahi@gmail.com</td>
+                                    <td>2022-02-12</td>
+                                    <td>New</td>
+                                    <td>Liked</td>
+                                </tr>
+                                <tr>
+                                    <td>Deepa Chand</td>
+                                    <td>deepachand@gmail.com</td>
+                                    <td>2022-02-12</td>
+                                    <td>Member</td>
+                                    <td>Shared</td>
+                                </tr>
+                                <tr>
+                                    <td>Prakash Shahi</td>
+                                    <td>prakashshahi@gmail.com</td>
+                                    <td>2022-02-13</td>
+                                    <td>New</td>
+                                    <td>Liked</td>
+                                </tr>
+                                <tr>
+                                    <td>Manisha Chand</td>
+                                    <td>manishachand@gmail.com</td>
+                                    <td>2022-02-13</td>
+                                    <td>Member</td>
+                                    <td>Shared</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
