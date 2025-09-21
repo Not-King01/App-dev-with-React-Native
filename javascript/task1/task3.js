@@ -1,0 +1,5 @@
+let a = prompt("Enter base: ")
+let b = prompt("Enter height: ")
+const c = (0.5 * b * a)
+console.log(c)
+window.alert(c)
